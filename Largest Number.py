@@ -1,5 +1,3 @@
-from typing import List
-
 class Solution:
     def largestNumber(self, nums: List[int]) -> str:
         
@@ -15,4 +13,7 @@ class Solution:
         
     
         result = ''.join(str_nums)
-        return result if result[0] != '0' else '0'
+        if result[0] == '0':
+            return '0'
+        else:
+            return result
