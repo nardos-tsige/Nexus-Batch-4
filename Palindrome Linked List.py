@@ -14,4 +14,3 @@ class Solution:
             current = current.next
         return values == values[::-1]
         
-        return True
