@@ -6,3 +6,4 @@ class Solution:
             if target == num[i]:
                 index.append(i)
         return index
+#Time complexity - O(nlogn)
